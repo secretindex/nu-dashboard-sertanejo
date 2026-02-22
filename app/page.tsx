@@ -7,11 +7,12 @@ import {
   MapPin,
   PersonStanding,
 } from "lucide-react";
+
+import { Separator } from "@heroui/react";
 import Indicator from "@/components/metrics/Indicator";
 import { Users } from "lucide-react";
 import ProgressIndicator from "@/components/metrics/ProgressIndicator";
 import TotalIndicator from "@/components/metrics/TotalIndicator";
-import { Separator } from '@heroui/react';
 
 const HomePage = () => {
   return (
@@ -28,7 +29,7 @@ const HomePage = () => {
       </div>
       <Separator />
       <div className="flex gap-2 py-4 w-full sm:flex-wrap md:flex-wrap lg:flex-nowrap">
-        <div className="flex flex-col gap-2 w-full">
+        <div className="flex flex-col gap-2 w-full bg-card">
           <div>
             <h2 className="text-xl font-bold text-foreground">Engajamento</h2>
           </div>
