@@ -1,6 +1,7 @@
-import Access from "@/components/report/Access";
-import { Separator } from "@heroui/react";
 import { ClockFading, GraduationCap, Heart, ImagePlus, MapPlus } from "lucide-react";
+import { Separator } from "@heroui/react";
+
+import Access from "@/components/report/Access";
 
 const RelatoriosPage = () => {
   return (

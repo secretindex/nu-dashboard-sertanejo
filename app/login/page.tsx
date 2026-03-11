@@ -11,10 +11,12 @@ import {
   TextField,
 } from "@heroui/react";
 import { Check } from "lucide-react";
+import { BaseSyntheticEvent } from "react";
+
 import axios from "axios";
 
 const LoginPage = () => {
-  const onSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+  const onSubmit = async (e: BaseSyntheticEvent) => {
     e.preventDefault();
     const formData = new FormData(e.currentTarget);
     const data: Record<string, string> = {};
@@ -26,6 +28,7 @@ const LoginPage = () => {
 
     console.log(response.data);
   };
+
   return (
     <div className="min-h-screen flex flex-col items-center justify-center">
       <Surface className="flex w-2/5 mx-auto flex-col gap-4 p-8 shadow-xl border border-border rounded-2xl">

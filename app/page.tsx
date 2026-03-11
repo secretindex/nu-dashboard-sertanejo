@@ -8,9 +8,10 @@ import {
   PersonStanding,
 } from "lucide-react";
 
-import { Separator } from "@heroui/react";
-import Indicator from "@/components/metrics/Indicator";
 import { Users } from "lucide-react";
+import { Separator } from "@heroui/react";
+
+import Indicator from "@/components/metrics/Indicator";
 import ProgressIndicator from "@/components/metrics/ProgressIndicator";
 import TotalIndicator from "@/components/metrics/TotalIndicator";
 
