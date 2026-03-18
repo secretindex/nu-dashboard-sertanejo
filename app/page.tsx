@@ -17,8 +17,8 @@ import TotalIndicator from "@/components/metrics/TotalIndicator";
 
 const HomePage = () => {
   return (
-    <div className="h-min-screen flex flex-col px-12 justify-center items-center">
-      <div className="flex flex-col gap-1 py-4 w-full">
+    <div className="h-min-screen flex flex-col py-8 px-12 justify-center items-center">
+      <div className="flex flex-col gap-1 w-full">
         <div className="flex items-center gap-2">
           <h1 className="text-3xl font-bold text-violet-700">
             Painel Geral da Missão

@@ -9,7 +9,7 @@ interface TotalIndicatorProps {
 
 const TotalIndicator = ({ title, value, icon }: TotalIndicatorProps) => {
   return (
-    <Surface className="flex flex-col w-full gap-2 p-4 rounded-lg border border-border">
+    <Surface className="flex flex-col w-full gap-2 p-4  bg-accent-foreground rounded-lg border border-border">
       <div className="flex flex-col items-center gap-1">
         {icon}
         <div className="flex items-center gap-1">
